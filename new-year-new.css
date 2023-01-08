@@ -24,3 +24,32 @@
     background-color: orangered;
     color: white;
 }
+/* first section ended */
+
+/* second section started */
+
+.previous-year-container{
+    display: flex;
+    gap: 70px;
+}
+
+.previous-year{
+    margin-top: 300px;
+}
+
+.year-title{
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.year-description{
+    margin-bottom: 20px;
+}
+
+.previous-year-container-text{
+    margin-right: 300px;
+}
+
+,personal-photo{
+    margin-left: 100px;
+}
