@@ -90,6 +90,7 @@ ul{
 /* fourth section start */
 .fourth-section{
     text-align: center;
+    margin-bottom: 100px;
 }
 .advice-content{
     text-align: left;
@@ -104,7 +105,46 @@ ul{
     margin-bottom: 15px;
     color: white;
 }
-.btn-call-now{
+.btn-common{
     padding: 15px 25px;
     color: orangered;
 }
+/* fourth section ended */
+
+/* fifth section start */
+.footer-container{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.contact{
+    margin: 100px 180px;
+}
+.footer-title{
+    margin-bottom: 20px;
+}
+.footer-paragraph{
+    margin-bottom: 20px;
+}
+.email-add{
+    margin-bottom: 20px;
+}
+.ftr-phone{
+    margin-bottom: 20px;
+}
+.ftr-subscribe{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 500px;
+}
+.btn-common{
+    display: block;
+}
+.ftr-email{
+    width: 40%;
+    padding: 12px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
