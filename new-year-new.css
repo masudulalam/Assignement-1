@@ -30,21 +30,24 @@
 /* second section start */
 .previous-year-container{
     display: flex;
-    gap: 70px;
+    gap: 100px;
 }
 
 .previous-year{
-    margin-top: 300px;
+    margin-top: 400px;
     margin-bottom: 100px;
+    margin-left: 250px;
 }
 
 .year-title{
     margin-top: 150px;
     margin-bottom: 20px;
+    width: 50%;
 }
 
 .year-description{
     margin-bottom: 20px;
+    width: 80%;
 }
 
 ul{
@@ -64,27 +67,23 @@ ul{
 .my-plans{
     display: flex;
     gap: 100px;
-    text-align: center;
-}
-
-.third-section{
-    margin-left: 200px;
-    margin-bottom: 100px;
-    text-align: center;
+    justify-content: center;
 }
 
 .third-section-title{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    text-align: center;
 
 }
 .plan-title{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .plan-description{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
+
 /* third section ended */
 
 /* fourth section start */
@@ -147,4 +146,5 @@ ul{
     border-radius: 5px;
     margin-bottom: 20px;
 }
+/* fifth section ended */
 
