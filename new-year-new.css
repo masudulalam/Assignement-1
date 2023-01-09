@@ -3,8 +3,9 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* first section start */
 .header-content{
-    border: 5px solid red;
     margin-left: 800px;
     margin-right: 200px;
     margin-top: -550px;
@@ -26,8 +27,7 @@
 }
 /* first section ended */
 
-/* second section started */
-
+/* second section start */
 .previous-year-container{
     display: flex;
     gap: 70px;
@@ -47,6 +47,10 @@
     margin-bottom: 20px;
 }
 
+ul{
+    padding-left: 20px;;
+}
+
 .previous-year-container-text{
     margin-right: 300px;
 }
@@ -56,17 +60,20 @@
 }
 /* second section ended */
 
+/* third section start */
 .my-plans{
     display: flex;
     gap: 100px;
+    text-align: center;
 }
 
 .third-section{
     margin-left: 200px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 .third-section-title{
-    text-align: center;
     margin-bottom: 50px;
 
 }
@@ -77,4 +84,27 @@
 
 .plan-description{
     margin-bottom: 200px;
+}
+/* third section ended */
+
+/* fourth section start */
+.fourth-section{
+    text-align: center;
+}
+.advice-content{
+    text-align: left;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+#advice-gradient{
+    height: 200px;
+    background-image: linear-gradient(to right, green, red);
+}
+.advice-title{
+    margin-bottom: 15px;
+    color: white;
+}
+.btn-call-now{
+    padding: 15px 25px;
+    color: orangered;
 }
